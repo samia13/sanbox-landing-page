@@ -598,11 +598,11 @@ footer form .btn.newsletter {
   border-radius: 0 8px 8px 0;
 }
 /* animations */
-section .btn-primary:hover,
+/* section .btn-primary:hover,
 section .btn-secondary:hover,
 footer .socials a:hover {
   transform: translateY(-10px);
-}
+} */
 section .statImg,
 section button:not(.priceBtn),
 section video,
@@ -616,6 +616,12 @@ section .service,
 @media (max-width: 500px) {
   #services ul {
     columns: 1;
+  }
+  #services .stats #main {
+    width: 100%;
+  }
+  #services .stats .statImg {
+    display: none;
   }
 }
 @media (max-width: 767px) {
