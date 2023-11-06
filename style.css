@@ -625,6 +625,15 @@ section .service,
   #services .stats .statImg {
     display: none;
   }
+  #hero h1,
+  #about .content h2,
+  #pricing h2,
+  #contact h2 {
+    font-size: 1.8rem;
+  }
+  form input {
+    width: 100%;
+  }
 }
 @media (max-width: 767px) {
   #services {
