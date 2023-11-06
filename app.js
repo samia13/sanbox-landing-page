@@ -5,9 +5,10 @@ function toggleMenu() {
 }
 toggle.addEventListener("click", toggleMenu);
 
-document.querySelectorAll(".nav a").forEach((item) => {
+document.querySelectorAll("nav li").forEach((item) => {
   item.addEventListener("click", toggleMenu);
 });
+document.querySelector("nav i").addEventListener("click", toggleMenu);
 window.addEventListener("load", startAnimation);
 
 function startAnimation() {
@@ -81,7 +82,6 @@ function startAnimation() {
       trigger: TestimonialImgs,
     },
     onComplete: () => {
-      // This code will run after the images animation is complete
       gsap.from(TestimonialNumber, {
         autoAlpha: 0,
         x: -50,
