@@ -324,7 +324,7 @@ header .mobile-menu:hover span:nth-child(2) {
 }
 #about .content .about-services {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
   gap: 30px;
 }
 #about .content .service {
@@ -436,7 +436,7 @@ header .mobile-menu:hover span:nth-child(2) {
 }
 #pricing .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(290px, 100%), 1fr));
   gap: 30px;
   margin-top: 50px;
   align-items: center;
@@ -633,6 +633,9 @@ section .service,
   }
   form input {
     width: 100%;
+  }
+  #contact .actions button {
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 767px) {
