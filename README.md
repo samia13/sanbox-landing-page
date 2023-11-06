@@ -13,9 +13,12 @@ For animations, i used Gsap.
 
 ## Live Preview
 
-[Preview Site](https://samia13.github.io/sanbox-landing-page/)
+[Sandbox Landing Page](https://samia13.github.io/sanbox-landing-page/)
 
 ## Reference
 
 You can find the Original template here => 
 [https://www.graphberry.com/item/kasper-one-page-psd-template](https://sandbox.elemisthemes.com/demo5.html)
+
+## Demo Image 
+![Demo image](assets/demo.png)
